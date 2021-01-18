@@ -1,5 +1,5 @@
 ion-content {
-  background: linear-gradient(to bottom, #0575E6, #021B79);
+  background: linear-gradient(to bottom, rgb(180, 94, 44), #021B79);
 }
 
 h2 {
