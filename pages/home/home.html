@@ -8,9 +8,13 @@
   <h2>BMI Calculator App</h2>
   <p>
     There's no "perfect weight" that fits everyone. BMI, or body mass index, measures how healthy your weight is based on how tall you are. It gives you a clue to your risk for weight-related health problems.
+    Source: <a href="https://www.webmd.com">https://www.webmd.com</a>
+    <br />
+    <br />
   </p>
 
-Source: <a href="https://www.webmd.com">https://www.webmd.com</a>
+<img
+src="https://stackblitz.com/files/ionic-ucwqxy/github/MaverickLacanilao/ionic-ucwqxy/master/bmi.jpg">
 
 <ion-item>
   <ion-label>Height in Meter:</ion-label>
@@ -27,5 +31,7 @@ Source: <a href="https://www.webmd.com">https://www.webmd.com</a>
 </button>
 
 <ion-item *ngIf="bmi">
-  <h2>Your BMI is: {{bmi}} <code> ({{bmiMessage}})</code></h2>
+  <h2 class="heading2">Your BMI is: {{bmi}} <code> ({{bmiMessage}})
+  </code></h2>
 </ion-item>
+</ion-content>

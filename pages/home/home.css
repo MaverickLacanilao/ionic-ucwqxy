@@ -1,0 +1,17 @@
+ion-content {
+  background: linear-gradient(to bottom, #0575E6, #021B79);
+}
+
+h2 {
+  color: beige;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ion-item {
+  background: transparent;
+}
